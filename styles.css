@@ -1,0 +1,66 @@
+html{
+    font-size: 170%;
+}
+body{
+    color: #e0e3ea;
+}
+
+.container {
+    border-radius: 1rem;
+    font-size: medium;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    text-align: center;
+    margin: 1rem;
+    background-color: #1d2246dd;
+}
+#bill-amount{
+    border-radius: 1rem;
+    font-size: medium;
+    text-align: center;
+    padding: 0.5rem;
+    width: 80%;
+    margin: auto;
+}
+#cash-given{
+    border-radius: 1rem;
+    font-size: medium;
+    text-align: center;
+    padding: 0.5rem; 
+    width: 80%;
+    margin: auto;
+}
+#check-button{
+    background-color: rgb(20, 182, 25);
+    font-size: medium;
+    border-radius: 66rem;
+    margin: auto;
+    padding:1rem 0.6rem ;
+    margin-top: 0.5rem;
+}
+.change-table{
+    font-size: 1rem;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+    font-size: large;
+    border: 1px solid rgb(21, 9, 9);
+}
+@media(max-width:1rem){
+    html{
+        font-size: 95%
+    }
+}
+
+label{
+    font-size: 1rem;
+    padding: 10px;
+}
+
+caption{
+    padding: 10px;
+}
